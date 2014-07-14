@@ -62,8 +62,14 @@
 
 		"kyaris-arsenal/platform": "dev-master",
 		"kyaris-arsenal/users": "dev-master",
-		"barryvdh/laravel-ide-helper": "1.*"
+
+        "pjtitle-data/shared-data": "dev-master",
+        "pjtitle-data/vc-connector": "dev-master"
 	},
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "1.*",
+        "doctrine/dbal": "~2.3"
+    },
 	"autoload": {
 		"classmap": [
 			"app/commands",
